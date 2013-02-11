@@ -1,7 +1,8 @@
+#include "logging.h"
+LOG_INIT("MyApp");
+
 #include "MyApp.h"
 
-
-#include <iostream> // for std::cout, std::endl;
 
 namespace mynamespace
 {
@@ -14,7 +15,7 @@ MyApp::MyApp()
 
 int MyApp::Run(int argc, char** argv)
 {
-    std::cout << "Hello, world." << std::endl;
+    LOG_DEBUG("Hello, world");
     return 0;
 }
 

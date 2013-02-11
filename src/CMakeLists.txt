@@ -28,5 +28,8 @@ add_library(MyAppLib
 add_executable(MyApp # Create a very basic executable which simply loads the lib
     main.cpp)
 
+target_link_libraries(MyAppLib
+    log4cxx)
+
 target_link_libraries(MyApp MyAppLib)
 
