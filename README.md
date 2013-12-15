@@ -1,4 +1,4 @@
-# C++ Perfect Template with Cmake, Apache Log4cxx and CPPUNIT
+# C++ Project Template
 
 ## Build dependencies
 
